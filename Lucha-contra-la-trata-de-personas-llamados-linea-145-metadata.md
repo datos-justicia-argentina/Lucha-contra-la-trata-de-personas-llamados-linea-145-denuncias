@@ -129,7 +129,7 @@ Recursos disponibles
 
 -   **hecho_denuncia_previa (string):** toma el valor Sí cuando se conoce que se había realizado una denuncia anterior sobre el hecho.
 
--   **derivacion_judicializacion_organismo (string):** toma el valor Sí cuando se conoce que se había realizado una denuncia anterior sobre el hecho. Toma los valores:
+-   **derivacion_judicializacion_organismo (string):** destino de la derivación. Toma los siguientes valores:
 
     -   Ministerio de Seguridad.
 
