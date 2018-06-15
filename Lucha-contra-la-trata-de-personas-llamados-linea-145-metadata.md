@@ -41,7 +41,7 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **denuncia_fecha (date)**: fecha en que se atendió el llamado. Formato AAAA-MM-DD.
+-   **denuncia_fecha (date)**: fecha en que se atendió el llamado para realizar una denuncia. Formato AAAA-MM-DD.
 
 -   **denuncia_tipo_explotacion**: refiere al tipo de explotación a que refiere la denuncia. A qué tipo de explotación hace referencia la denuncia. Puede tomar los valores:
 
@@ -146,6 +146,8 @@ Recursos disponibles
     -   Área legal (judicializadas)
 
     -   Protex
+    
+-   **denuncia_judicializacion_fecha (date)**: fecha en la que se derivó el caso al organismo. Formato AAAA-MM-DD.
 
 ### Notas
 
