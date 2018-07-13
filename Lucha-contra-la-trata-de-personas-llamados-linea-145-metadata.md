@@ -1,11 +1,11 @@
-Lucha contra la trata de personas - Denuncias línea 145
+Lucha contra la trata de personas - Llamados línea 145
 ------------------------------------------------------
 
 Este conjunto de datos contiene las llamadas atendidas por personal técnico del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata, de la Línea 145, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se trata de un número de llamada gratuita, de alcance nacional, en el cual la atención está garantizada las 24hs. los 365 días del año, y que está facultado para recibir denuncias, relacionadas con el delito de Trata de Personas. Las mismas pueden realizarse en forma anónima a los fines de preservar la identidad de los denunciantes.
 
 La República Argentina ha incorporado el delito de Trata de Personas puesto que se contrajo como una obligación internacional en la Ratificación del [Protocolo para Prevenir, Reprimir y Sancionar la Trata de Personas, especialmente Mujeres y Niños](http://www.ohchr.org/Documents/ProfessionalInterest/ProtocolTraffickingInPersons_sp.pdf), el cual complementa la [Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional (Italia, Palermo 2000](https://www.unodc.org/documents/treaties/UNTOC/Publications/TOC%20Convention/TOCebook-s.pdf)
 
-http://datos.jus.gob.ar/dataset/lucha-contra-la-trata-de-personas-denuncias-linea-145
+http://datos.jus.gob.ar/dataset/lucha-contra-la-trata-de-personas-llamados-linea-145
 
 Características
 ---------------
@@ -27,23 +27,129 @@ Características
 Recursos disponibles
 --------------------
 
-### Lucha contra la trata de personas denuncias línea 145 – AAAA-MM
+### Lucha contra la trata de personas llamados línea 145 – AAAA-MM
 
--   **Nombre del archivo:** lucha-contra-la-trata-de-personas-denuncias-linea-145 -AAAA-MM.csv
+-   **Nombre del archivo:** lucha-contra-la-trata-de-personas-llamados-linea-145 -AAAA-MM.csv
 
-**Descripción del contenido:** detalle de las denuncias atendidas por los profesionales del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata de la Línea 145, sobre casos de explotación laboral, explotación sexual, desaparición de personas, publicidad de oferta sexual, traslado de personas, posible captación, grooming y venta de niños,
+**Descripción del contenido:** detalle de los llamados atendidos por los profesionales del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata de la Línea 145, sobre casos de explotación laboral, explotación sexual, desaparición de personas, publicidad de oferta sexual, traslado de personas, posible captación, grooming y venta de niños,
 
 > Cada fila en este archivo representa un llamado, ya que en el llamado se identifica una única víctima y un único agresor/a.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** denuncias recibidos desde enero de 2017 hasta la fecha consignada como "Datos actualizados al"
+-   **Rango temporal:** llamados recibidos desde enero de 2017 hasta la fecha consignada como "Datos actualizados al"
 
 ### Campos del recurso
 
--   **denuncia_fecha (date)**: fecha en que se atendió el llamado para realizar una denuncia. Formato AAAA-MM-DD.
+-   **denuncia_fecha (date)**: fecha en que se atendió el llamado. Formato AAAA-MM-DD
 
--   **denuncia_tipo_explotacion**: refiere al tipo de explotación a que refiere la denuncia. A qué tipo de explotación hace referencia la denuncia. Puede tomar los valores:
+-   **denuncia_previa (string):** toma el valor Sí cuando se conoce que se había realizado una denuncia anterior sobre el hecho
+
+-   **derivacion_seguimiento (string):** toma valor Sí cuando la denuncia es derivada al área “Seguimiento”
+
+-   **llamante_anonimo (string):** toma valor Sí cuando no se identifica la persona que realiza la denuncia
+
+-   **llamante_genero (string):** género de quien realiza el llamado. Puede tomar los valores:
+
+    -   Masculino
+
+    -   Femenino
+
+    -   Trans
+
+    -   Situaciones con hombres y mujeres o trans (varios)
+
+    -   Ns/Nc: no sabe / no contesta
+
+    -   Otros
+
+-   **llamante_rango_etario (string):** rango etario de la persona que realiza el llamado. Puede tomar los valores:
+
+    -   0 a 13 años
+
+    -   14 a 16 años
+
+    -   16 a 17 años (específico para trabajo adolescente)
+
+    -   18 a 25 años
+
+    -   26 a 40 años
+
+    -   41 a 60 años
+
+    -   61 años en adelante
+
+    -   No refiere
+
+-   **llamante_provincia (string):** provincia a la que pertenece la persona que realiza el llamado
+
+-   **llamante_es_victima (string):** toma valor Sí cuando la víctima es quién realiza el llamado para denunciar el hecho
+
+-   **victima_genero (string):** género de la víctima. Puede tomar los valores:
+
+    -   Masculino
+
+    -   Femenino
+
+    -   Trans
+
+    -   Situaciones con hombres y mujeres o trans (varios)
+
+    -   Ns/Nc: no sabe / no contesta
+
+    -   Otros
+
+-   **victima_rango_etario (string):** rango etario de la víctima. Puede tomar los valores:
+
+    -   0 a 13 años
+
+    -   14 a 16 años
+
+    -   16 a 17 años (específico para trabajo adolescente)
+
+    -   18 a 25 años
+
+    -   26 a 40 años
+
+    -   41 a 60 años
+
+    -   61 años en adelante
+
+    -   No refiere
+
+-   **victima_discapacidad (string):** toma valor Sí cuando la víctima posee algún tipo de discapacidad
+
+-   **victima_embarazada (string):** toma valor Sí cuando la víctima se encuentra embarazada
+
+-   **victima_provincia_origen (string):** provincia en la que nació la víctima
+
+-   **victima_cantidad (int):** cantidad de víctimas afectadas en el hecho denunciado
+
+-   **victima_nacionalidad (string):** nacionalidad de la víctima
+
+-   **denunciado_genero (string):** género de la persona denunciada. Puede tomar los valores:
+
+    -   Masculino
+
+    -   Femenino
+
+    -   Trans
+
+    -   Situaciones con hombres y mujeres o trans (varios)
+
+    -   Ns/Nc: no sabe / no contesta
+
+    -   Otros
+
+-   **denunciado_provincia (string):** provincia en la que se encuentra la persona denunciada
+
+-   **connivencia_fuerza_seguridad (string):** toma valor Sí cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas pertenecientes a las fuerzas de seguridad
+
+-   **connivencia_poder_politico (string):** toma valor Sí cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas con carácter de funcionarios públicos
+
+-   **hecho_provincia (string):** provincia en la que se produjo el hecho denunciado
+
+-   **denuncia_tipo_explotacion (string):** se menciona a qué tipo de explotación hace referencia la denuncia. Puede tomar los valores:
 
     -   Explotación sexual
 
@@ -59,19 +165,45 @@ Recursos disponibles
 
     -   Posible captación
 
-    -   Secuestro/Venta de niños/pornografía infantil Otros
+    -   Venta de niños y otros delitos
 
--   **denuncia_via_ingreso:** medio a través del cual ingresa la denuncia
+    -   Explotación sexual niñas, niños y adolescentes
+
+    -   Explotación laboral niñas, niños y adolescentes
+
+    -   Grooming
+
+    -   Pornografía infantil
+
+    -   Ofrecimiento
+
+    -   Mula
+
+    -   Servidumbre doméstica
+
+    -   Posible trata de personas (hecho indefinido)
+
+    -   Matrimonio forzado
+
+    -   Extracción forzosa de órganos, tejidos o fluidos
+
+-   **denuncia_via_ingreso (string):** medio a través del cual ingresa la denuncia
 
     -   Línea 145
 
     -   Correo institucional
 
-    -   Línea telefónica institucional
+    -   Teléfono institucional (no salientes)
 
     -   Presencial
 
--   **denunciante_tipo_acercamiento:** refiere a cómo el denunciante conoció la línea 145 o el Programa
+    -   Lamadas salientes
+
+    -   Llamadas realizadas por seguimiento
+
+    -   Línea 149 - CENAVID
+
+-   **acercamiento_tipo (string):** refiere a cómo el denunciante conoció la línea 145 o el Programa
 
     -   TV
 
@@ -83,81 +215,51 @@ Recursos disponibles
 
     -   Capacitación
 
-    -   ONG – Org Nacionales
+    -   ONG – Organismos Nacionales
 
-    -   Por contacto (boca en boca)
+    -   Boca en boca
 
     -   Otros
 
--   **llamante_tipo (string):** indica quién realiza el llamado. Puede indicar personas (víctima, vecino) o instituciones (policía, hospital).
+-   **derivacion_organismo (string):** organismo al cual es derivada la denuncia. Puede tomar los valores:
 
--   **llamante_genero (string):** género de quien realiza el llamado. Puede tomar los valores:
-
-    -   Masculino
-
-    -   Femenino
-
-    -   Trans
-
-    -   Ns/Nc: no sabe / no contesta
-
--   **llamante_rango_etario (string):** rango etario del llamante. Puede tomar los valores:
-
-    -   1 a 5 años
-
-    -   6 a 11 años
-
-    -   12 a 17 años
-
-    -   18 a 29 años
-
-    -   30 a 39 años
-
-    -   40 a 49 años
-
-    -   50 a 59 años
-
-    -   más de 60 años
-
-    -   Sin datos
-
--   **hecho_localidad (string):** localidad en la cual ocurrió el hecho denunciado.
-
--   **hecho_provincia (string):** provincia en la cual ocurrió el hecho denunciado.
-
--   **hecho_pais (string):** provincia en la cual ocurrió el hecho denunciado.
-
--   **hecho_denuncia_previa (string):** toma el valor Sí cuando se conoce que se había realizado una denuncia anterior sobre el hecho.
-
--   **derivacion_judicializacion_organismo (string):** destino de la derivación. Toma los siguientes valores:
-
-    -   Ministerio de Seguridad.
-
-    -   Fuerzas de Seguridad Federales
-
-    -   PNA Área legal para judicializar
+    -   Ministerio de Seguridad
 
     -   Oficina de Monitoreo
 
+    -   Área legal ya judicializada
+
+    -   Fuerzas de Seguridad Federal
+
     -   Juzgado/Fiscalía
+
+    -   Protex
+
+    -   Área legal para judicializar
 
     -   Ufisex
 
-    -   Área legal (judicializadas)
+    -   Comisarías
 
-    -   Protex
-    
--   **denuncia_judicializacion_fecha (date)**: fecha en la que se derivó el caso al organismo. Formato AAAA-MM-DD.
+    -   Otros
+
+-   **derivacion_fecha (date):** fecha en la que se derivó la denuncia a otro organismo
+
+-   **llamante_provincia_indec_id (int):** código INDEC de la provincia a la que pertenece la persona que realiza el llamado
+
+-   **victima_provincia_origen_indec_id (int):** código INDEC de la provincia en la que nació la víctima
+
+-   **denunciado_provincia_indec_id (int):** código INDEC de la provincia en la que se encuentra la persona denunciada
+
+-   **hecho_provincia_indec_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado
 
 ### Lucha contra la trata de personas denuncias línea 145 – AAAA
 
--   **Nombre del archivo:** lucha-contra-la-trata-de-personas-denuncias-linea-145-orientaciones-AAAA-MM.zip
+-   **Nombre del archivo**: lucha-contra-la-trata-de-personas-denuncias-linea-145-orientaciones-AAAA-MM.zip
 
-**Descripción del contenido:** detalle de las orientaciones efectuadas ante comunicaciones recibidas en la línea 145 relacionadas con hechos no vinculados con el delito de trata, pero si con otros delitos, situaciones de extrema vulnerabilidad o que requieren intervención de otros organismos
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
 
--   **Formato:** ZIP
-
--   **Rango temporal:** llamados recibidos hasta la fecha consignada como "Datos actualizados al"
+-   **Formato:** ZIP
 
 ### Notas
 
