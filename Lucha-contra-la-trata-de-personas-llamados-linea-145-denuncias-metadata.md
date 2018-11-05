@@ -1,5 +1,5 @@
-Lucha contra la trata de personas - Llamados línea 145
-------------------------------------------------------
+Lucha contra la trata de personas - Llamados línea 145 - Denuncias
+------------------------------------------------------------------
 
 Este conjunto de datos contiene las llamadas atendidas por personal técnico del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata, de la Línea 145, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se trata de un número de llamada gratuita, de alcance nacional, en el cual la atención está garantizada las 24hs. los 365 días del año, y que está facultado para recibir denuncias, relacionadas con el delito de Trata de Personas. Las mismas pueden realizarse en forma anónima a los fines de preservar la identidad de los denunciantes.
 
