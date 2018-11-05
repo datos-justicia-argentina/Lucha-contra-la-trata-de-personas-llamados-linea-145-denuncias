@@ -263,7 +263,7 @@ Recursos disponibles
 
 ### Notas
 
-### Marco normativo:
+[Ley 27.275 - Derecho de Acceso a la Información Pública]( http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm)
 
 [Ley 26.364](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm)
 
