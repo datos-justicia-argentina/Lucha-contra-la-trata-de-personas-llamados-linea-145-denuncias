@@ -265,7 +265,7 @@ Recursos disponibles
 
 [Ley 27.275 - Derecho de Acceso a la Información Pública]( http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm)
 
-[Ley 26.364](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm)
+[Ley 26.364 - Prevención y Sanción de la Trata de Personas y Asistencia a sus Víctimas](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm)
 
 [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm)
 
