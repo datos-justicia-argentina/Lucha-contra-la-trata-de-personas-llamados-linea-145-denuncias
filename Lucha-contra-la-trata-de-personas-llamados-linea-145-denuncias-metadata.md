@@ -187,7 +187,7 @@ Recursos disponibles
 
     -   Extracción forzosa de órganos, tejidos o fluidos
     
->   La variable informada hasta enero de 2019 como "Indicadores de Posible Trata" es reemplazada a partir del mes de febrero de 2019 por "Posible Captación".
+>   La variable informada como "Indicadores de Posible Trata" hasta enero de 2019 es reemplazada por "Posible Captación" a partir del mes de febrero de 2019.
 
 -   **denuncia_via_ingreso (string):** medio a través del cual ingresa la denuncia
 
