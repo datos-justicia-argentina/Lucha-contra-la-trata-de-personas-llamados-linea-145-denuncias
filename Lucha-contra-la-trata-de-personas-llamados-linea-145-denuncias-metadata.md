@@ -33,7 +33,7 @@ Recursos disponibles
 
 **Descripción del contenido:** detalle de los llamados atendidos por los profesionales del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata de la Línea 145, sobre casos de explotación laboral, explotación sexual, desaparición de personas, publicidad de oferta sexual, traslado de personas, posible captación, grooming y venta de niños,
 
-> Cada fila en este archivo representa un llamado, ya que en el llamado se identifica una única víctima y un único agresor/a.
+> Cada fila en este archivo representa un llamado, ya que en el llamado se identifica una única víctima y un único agresor/a. A partir del mes de febrero de 2019 el recuento de las denuncias es realizado por medio del SICAJ  (Sistema Informático de los Centros de Acceso a Justicia). 
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
