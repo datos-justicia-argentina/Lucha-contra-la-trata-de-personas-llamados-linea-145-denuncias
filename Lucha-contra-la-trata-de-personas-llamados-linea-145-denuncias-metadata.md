@@ -181,11 +181,13 @@ Recursos disponibles
 
     -   Servidumbre doméstica
 
-    -   Posible trata de personas (hecho indefinido)
+    -   Posible trata de personas (hecho indefinido).
 
     -   Matrimonio forzado
 
     -   Extracción forzosa de órganos, tejidos o fluidos
+    
+-   La variable informada hasta enero de 2019 como "Indicadores de Posible Trata" es reemplazada a partir del mes de febrero de 2019 por "Posible Captación".
 
 -   **denuncia_via_ingreso (string):** medio a través del cual ingresa la denuncia
 
