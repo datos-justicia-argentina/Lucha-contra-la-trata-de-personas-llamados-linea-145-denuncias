@@ -49,6 +49,14 @@ Recursos disponibles
 
 -   **llamante_anonimo (string):** toma valor Sí cuando no se identifica la persona que realiza la denuncia
 
+-   **llamante_es_victima (string):** hace referencia a si la persona que realiza la denuncia es víctima. Puede tomar los valores:
+
+    -   No es víctima
+
+    -   Víctima Directa
+    
+    -   Víctima Indirecta
+
 -   **llamante_genero (string):** género de quien realiza el llamado. Puede tomar los valores:
 
     -   Masculino
@@ -83,9 +91,7 @@ Recursos disponibles
 
 -   **llamante_provincia (string):** provincia a la que pertenece la persona que realiza el llamado
 
--   **llamante_es_victima (string):** toma valor Sí cuando la víctima es quién realiza el llamado para denunciar el hecho
-
--   **victima_genero (string):** género de la víctima. Puede tomar los valores:
+-   **victima_identificada_genero (string):** género de la víctima identificada. Puede tomar los valores:
 
     -   Masculino
 
@@ -99,7 +105,7 @@ Recursos disponibles
 
     -   Otros
 
--   **victima_rango_etario (string):** rango etario de la víctima. Puede tomar los valores:
+-   **victima_identificada_rango_etario (string):** rango etario de la víctima identificada. Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -117,15 +123,13 @@ Recursos disponibles
 
     -   No refiere
 
--   **victima_discapacidad (string):** toma valor Sí cuando la víctima posee algún tipo de discapacidad
+-   **victima_identificada_discapacidad (string):** toma valor Sí cuando la víctima identificada posee algún tipo de discapacidad
 
--   **victima_embarazada (string):** toma valor Sí cuando la víctima se encuentra embarazada
+-   **victima_identificada_embarazada (string):** toma valor Sí cuando la víctima identificada se encuentra embarazada
 
--   **victima_provincia_origen (string):** provincia en la que nació la víctima
+-   **victima_identificada_provincia_origen (string):** provincia en la que nació la víctima identificada
 
--   **victima_cantidad (int):** cantidad de víctimas afectadas en el hecho denunciado
-
--   **victima_nacionalidad (string):** nacionalidad de la víctima
+-   **victima_identificada_nacionalidad (string):** nacionalidad de la víctima identificada
 
 -   **denunciado_genero (string):** género de la persona denunciada. Puede tomar los valores:
 
@@ -140,14 +144,66 @@ Recursos disponibles
     -   Ns/Nc: no sabe / no contesta
 
     -   Otros
+    
+-   **denunciado_rango_etario (string):** rango etario de la persona denunciada. Puede tomar los valores:
 
+    -   0 a 13 años
+
+    -   14 a 16 años
+
+    -   16 a 17 años (específico para trabajo adolescente)
+
+    -   18 a 25 años
+
+    -   26 a 40 años
+
+    -   41 a 60 años
+
+    -   61 años en adelante
+
+    -   No refiere
+    
 -   **denunciado_provincia (string):** provincia en la que se encuentra la persona denunciada
 
 -   **connivencia_fuerza_seguridad (string):** toma valor Sí cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas pertenecientes a las fuerzas de seguridad
 
 -   **connivencia_poder_politico (string):** toma valor Sí cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas con carácter de funcionarios públicos
 
--   **hecho_provincia (string):** provincia en la que se produjo el hecho denunciado
+-   **victimas_estimadas_cantidad (string):** cantidad estimada de víctimas afectadas en el hecho denunciado
+
+-   **victimas_estimadas_genero (string):** género de las víctimas estimadas en el hecho denunciado. Puede tomar los valores:
+
+    -   Masculino
+
+    -   Femenino
+
+    -   Trans
+
+    -   Situaciones con hombres y mujeres o trans (varios)
+
+    -   Ns/Nc: no sabe / no contesta
+
+    -   Otros
+    
+-   **victimas_estimadas_rango_etario (string):** rango etario de las víctimas estimadas en el hecho denunciado. Puede tomar los valores:
+
+    -   0 a 13 años
+
+    -   14 a 16 años
+
+    -   16 a 17 años (específico para trabajo adolescente)
+
+    -   18 a 25 años
+
+    -   26 a 40 años
+
+    -   41 a 60 años
+
+    -   61 años en adelante
+
+    -   No refiere
+
+-   **victimas_estimadas_provincia_hecho (string):** provincia en la que se produjo el hecho denunciado
 
 -   **denuncia_tipo_explotacion (string):** se menciona a qué tipo de explotación hace referencia la denuncia. Puede tomar los valores:
 
@@ -249,11 +305,11 @@ Recursos disponibles
 
 -   **llamante_provincia_indec_id (int):** código INDEC de la provincia a la que pertenece la persona que realiza el llamado
 
--   **victima_provincia_origen_indec_id (int):** código INDEC de la provincia en la que nació la víctima
+-   **victima_identificada_provincia_origen_indec_id (int):** código INDEC de la provincia en la que nació la víctima identificada
 
 -   **denunciado_provincia_indec_id (int):** código INDEC de la provincia en la que se encuentra la persona denunciada
 
--   **hecho_provincia_indec_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado
+-   **victimas_estimadas_provincia_hecho_indec_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado
 
 ### Lucha contra la trata de personas denuncias línea 145 – AAAA
 
