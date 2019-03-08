@@ -51,7 +51,7 @@ Recursos disponibles
 
 -   **llamante_es_victima (string):** hace referencia a si la persona que realiza la denuncia es víctima. Puede tomar los valores:
 
-    -   No es víctima
+    -   No es Víctima
 
     -   Víctima Directa
     
@@ -71,7 +71,7 @@ Recursos disponibles
 
     -   Otros
 
--   **llamante_rango_etario (string):** rango etario de la persona que realiza el llamado. Puede tomar los valores:
+-   **llamante_rango_etario (int):** rango etario de la persona que realiza el llamado. Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -105,7 +105,7 @@ Recursos disponibles
 
     -   Otros
 
--   **victima_identificada_rango_etario (string):** rango etario de la víctima identificada. Puede tomar los valores:
+-   **victima_identificada_rango_etario (int):** rango etario de la víctima identificada. Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -145,7 +145,7 @@ Recursos disponibles
 
     -   Otros
     
--   **denunciado_rango_etario (string):** rango etario de la persona denunciada. Puede tomar los valores:
+-   **denunciado_rango_etario (int):** rango etario de la persona denunciada. Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -185,7 +185,7 @@ Recursos disponibles
 
     -   Otros
     
--   **victimas_estimadas_rango_etario (string):** rango etario de las víctimas estimadas en el hecho denunciado. Puede tomar los valores:
+-   **victimas_estimadas_rango_etario (int):** rango etario de las víctimas estimadas en el hecho denunciado. Puede tomar los valores:
 
     -   0 a 13 años
 
