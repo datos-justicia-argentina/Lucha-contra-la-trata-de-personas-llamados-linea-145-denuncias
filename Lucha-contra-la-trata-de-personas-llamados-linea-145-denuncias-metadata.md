@@ -303,13 +303,13 @@ Recursos disponibles
 
 -   **derivacion_fecha (date):** fecha en la que se derivó la denuncia a otro organismo
 
--   **llamante_provincia_indec_id (int):** código INDEC de la provincia a la que pertenece la persona que realiza el llamado
+-   **llamante_provincia_id (int):** código INDEC de la provincia a la que pertenece la persona que realiza el llamado (hasta 05/2019 nombre campo llamante_provincia_indec_id)
 
--   **victima_identificada_provincia_origen_indec_id (int):** código INDEC de la provincia en la que nació la víctima identificada
+-   **victima_identificada_provincia_origen_id (int):** código INDEC de la provincia en la que nació la víctima identificada (hasta 05/2019 nombre campo victima_identificada_provincia_origen_indec_id)
 
--   **denunciado_provincia_indec_id (int):** código INDEC de la provincia en la que se encuentra la persona denunciada
+-   **denunciado_provincia_id (int):** código INDEC de la provincia en la que se encuentra la persona denunciada (hasta 05/2019 nombre campo denunciado_provincia_indec_id)
 
--   **victimas_estimadas_provincia_hecho_indec_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado
+-   **victimas_estimadas_provincia_hecho_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado (hasta 05/2019 nombre campo victimas_estimadas_provincia_hecho_indec_id)
 
 ### Lucha contra la trata de personas denuncias línea 145 – AAAA
 
