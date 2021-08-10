@@ -1,18 +1,20 @@
 Lucha contra la trata de personas - Llamados línea 145 - Denuncias
 ------------------------------------------------------------------
 
-Este conjunto de datos contiene las llamadas atendidas por personal técnico del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata, de la Línea 145, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se trata de un número de llamada gratuita, de alcance nacional, en el cual la atención está garantizada las 24hs. los 365 días del año, y que está facultado para recibir denuncias, relacionadas con el delito de Trata de Personas. Las mismas pueden realizarse en forma anónima a los fines de preservar la identidad de los denunciantes.
+Este conjunto de datos contiene las llamadas atendidas por personal técnico del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata, de la Línea 145, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se trata de un número de llamada gratuita, de alcance nacional, en el cual la atención está garantizada las 24hs. los 365 días del año, y que está facultado para recibir denuncias, relacionadas con el delito de Trata de Personas. Las mismas pueden realizarse en forma anónima a los fines de preservar la identidad de los denunciantes. La entrevista con el ciudadano puede finalizar en denuncia, si se trata de un caso de trata sexual o laboral, orientación,  si es una consulta que requiere de orientación pero no refiere al delito de trata, o puede determinarse que resultó un llamado no pertinente (llamados equivocados, bromas telefónicas o llamados obscenos).
 
 La República Argentina ha incorporado el delito de Trata de Personas puesto que se contrajo como una obligación internacional en la Ratificación del [Protocolo para Prevenir, Reprimir y Sancionar la Trata de Personas, especialmente Mujeres y Niños](http://www.ohchr.org/Documents/ProfessionalInterest/ProtocolTraffickingInPersons_sp.pdf), el cual complementa la [Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional (Italia, Palermo 2000](https://www.unodc.org/documents/treaties/UNTOC/Publications/TOC%20Convention/TOCebook-s.pdf)
 
 http://datos.jus.gob.ar/dataset/lucha-contra-la-trata-de-personas-llamados-linea-145-denuncias
+
+https://www.argentina.gob.ar/jefatura/comitecontralatrata
 
 Características
 ---------------
 
 -   **Fecha de Primera** **Publicación:** 08/03/2018
 
--   **Tags o Etiquetas:** trata, explotación, oferta sexual, desapariciones, grooming, captaciones, víctimas, género
+-   **Tags o Etiquetas:** 145, trata, explotación, oferta sexual, desapariciones, grooming, captaciones, víctimas, género, vulnerabilidades, orientaciones, conflicto vecinal, adicciones, consumo, abuso infantil, denuncias
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Acceso a la Justicia. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
 
@@ -24,20 +26,215 @@ Características
 
 -   **Frecuencia de Actualización:** Mensualmente
 
+> La estructura mencionada a continuación hace referencia a los archivos publicados en el portal datos.jus.gob.ar a partir del mes de enero 2020. Los datos publicados surgen a patir de la registración en el sistema SICAJ (Sistema Informático de los Centros de Acceso a Justicia)
+
+Recursos disponibles
+--------------------
+
+### Lucha contra la trata de personas denuncias línea 145 – 202001 - AAAAMM
+
+-   **Nombre del archivo:** lucha-contra-la-trata-de-personas-denuncias-linea-145-202001-AAAAMM.csv
+
+**Descripción del contenido:** detalle de los llamados atendidos por las y los profesionales del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata de la Línea 145, sobre casos de explotación laboral y/o explotación sexual. A partir de febrero de 2019 los datos surgen de su registración en el sistema SICAJ (Sistema Informático de los Centros de Acceso a Justicia)
+
+-   **Formato:** CSV delimitado por comas, codificado en UTF-8
+
+-   **Rango temporal:** desde enero de 2020 hasta la fecha consignada como "Datos actualizados al"
+
+### Campos del recurso
+
+-   **fecha_ingreso (date)**: fecha en que se cargan los primeros datos en el sistema. Las denuncias son cargadas en el sistema al momento de realizarlas. Formato AAAA-MM-DD
+
+-	**hora_ingreso (datetime)**: hora en que se cargan los datos en el sistema. Formato hh:mm
+
+-   **nro_registro_interno (int):** identificador de la denuncia. Permite relacionar a la denuncia con la tabla de personas referidas en las denuncias
+
+-   **situación (string):** refiere a la evaluación que realiza la o el profesional que toma la consulta, según una serie de indicadores, en la cual determina si se trata de una urgencia o una emergencia. Esta evaluación determina el tipo de derivación que se efectúa.
+
+-   **origen (string):** indica si la denuncia la realizó un ciudadano o una institución
+
+-   **es_anonima (string):** toma valor Sí cuando no se identifica la persona que realiza la denuncia
+
+-   **tema (string):** refiere a la problemática por la cual se realiza la denuncia. Toma la variable:
+
+    -   Trata
+
+-   **subtema (string):** refiere al subtema de la denuncia. Puede tomar los siguientes valores, entre otros:
+
+	–	Explotación laboral
+	
+	–	Explotación sexual
+	
+	–	Explotación sexual niñas, niños y adolescentes
+	
+	–	Oferta laboral engañosa
+	
+	–	Extracción forzosa de órganos, tejidos o fluidos
+
+-   **provincia (string):** provincia donde aconteció el hecho denunciado
+
+-   **localidad (string):** localidad donde aconteció el hecho denunciado
+
+-   **barrio (string):** barrio donde aconteció el hecho denunciado
+
+-   **dependencia_alta (string):** dependencia desde la cual se cargó en el sistema la denuncia
+
+-   **via_ingreso (string):** medio a través del cual ingresa la denuncia. Puede tomar los valores:
+
+	-	Línea 145
+	
+	-	Correo institucional
+	
+	-	Teléfono institucional
+
+-   **derivacion_institucion (string):** organismo al cual es derivada la denuncia para que lleve a cabo la judicialización o para su conocimiento. Cuando los hechos ocurren en la Ciudad de Buenos Aires el Programa Nacional de Rescate lleva adelante la judicialización. Si se trata de una emergencia se deriva a su vez a las Fuerzas Federales de Seguridad. Puede tomar los valores:
+
+	-	Área legal del Programa Nacional de Rescate
+
+	-	Gendarmería Nacional Argentina
+
+	-	Juzgado/Fiscalía
+
+    -   Oficina de Monitoreo
+
+    -   Policía Federal Argentina
+
+    -   Protex
+
+    -   Comisarías
+
+    -   Otros
+	
+	> Desde el día 1° de julio el PNR dejó de judicializar las denuncias. Se judicializa a través del Ministerio Público Fiscal (PROTEX)  o en caso de tratarse de una emergencia a través de las Fuerzas Federales de Seguridad
+
+-   **derivacion_fecha (string):** fecha en la que se derivó la denuncia a otro organismo. Formato AAAA-MM-DD
+
+-   **derivacion_judicializa (string):** toma valor Sí cuando la derivación termina siendo judicializada. No se judicializa en tanto sea una orientación
+
+	- derivacion2_institucion (string): ídem derivacion_institucion
+	
+	- derivacion2_fecha (date): ídem derivacion_fecha
+	
+	- derivacion2_judicializa (string): ídem derivacion_judicializa
+	
+	- derivacion3_institucion (string): ídem derivacion_institucion
+	
+	- derivacion3_fecha (date): ídem derivacion_fecha
+	
+	- derivacion3_judicializa (string): ídem derivacion_judicializa
+
+-   **denunciante_nacionalidad (string):** nacionalidad de la persona que realiza la denuncia
+
+-   **denunciante_provincia (string):** provincia en la que se encuentra la persona que realiza la denuncia
+
+-   **denunciante_localidad (string localidad en la que se encuentra la persona que realiza la denuncia
+
+-   **denunciante_tipo (string):** refiere al tipo de denunciante. Puede tomar los valores:
+	
+	-	Denunciante - ciudadano
+	
+	-	Denunciante - institución
+
+	-	Denunciante - institución
+	
+	-	Denunciante - víctima directa
+	
+	-	Denunciante - víctima indirecta
+	
+-   **denunciante_como_conocio_la_linea (string):** refiere al medio por el cual conoció la línea la persona que realiza la denuncia
+
+-   **denunciante_genero (string):** género de la persona que realiza la denuncia. Puede tomar los valores:
+
+	-	Hombre
+
+    -   Mujer
+
+    -   Transexual
+
+    -   Transgénero
+
+    -   Travesti
+
+-   **denunciante_edad_aparente (string):** edad aparente de la persona que realiza la denuncia
+
+-   **provincia_indec_id (string):** código de provincia desde la cual se realiza la denuncia, según la codificación de provincia implementada por INDEC (hasta 05/2019 nombre campo orientacion_provincia_indec_id)
+
+### Lucha contra la trata de personas denuncias línea 145 – referidos - 202001 - AAAAMM
+
+-   **Nombre del archivo:** oficina-rescate-denuncias-referidos-202001-AAAAMM.csv
+
+**Descripción del contenido:** detalle de las personas a las que se hace referencia en la denuncia por el Delito de Trata de la Línea 145. Refiere tanto víctimas como acusados
+
+-   **Formato:** CSV delimitado por comas, codificado en UTF-8
+
+-   **Rango temporal:** desde enero de 2020 hasta la fecha consignada como "Datos actualizados al"
+
+### Campos del recurso
+
+-   **nro_registro_interno (int):** identificador de la denuncia. Permite relacionar al referido con la denuncia
+
+-   **fecha_ingreso_denuncia (date)**: fecha en la que se ingresa la denuncia al sistema. Formato AAAA-MM-DD
+
+-   **tema (string):** refiere a la problemática por la cual se realiza la denuncia. Toma el mismo valores que en la denuncia
+
+-   **subtema (string):** refiere al subtema de la orientación. Toma los mismos valores que en la denuncia
+  
+-   **referido_tipo (string):** referido tipo. Puede tomar los siguientes valores:
+
+	-	Acusado
+	
+	-	Víctima directa
+	
+	-	Víctima indirecta - familiar
+
+-   **nacionalidad (string):** nacionalidad de la persona referida
+
+-   **provincia (string):** provincia a la que pertenece la persona referida
+
+-   **localidad (string):** localidad a la que pertenece la persona referida
+
+-   **genero (string):** género de la persona referida. Puede tomar los mismos valores que el campo denunciante_genero
+
+-   **edad_aparente (string):** edad aparente de la persona referida
+
+-   **embarazada (string):** toma valor Sí cuando la persona referida está embarazada
+
+-   **discapacidad (string):** toma valor Sí cuando la persona referida posee algún tipo de discapacidad
+
+-   **provincia_indec_id (string):** código de la provincia a la que pertenece la persona referida, según la codificación de provincia implementada por INDEC
+
+### Lucha contra la trata de personas denuncias línea 145 – AAAA
+
+-   **Nombre del archivo:** lucha-contra-la-trata-de-personas-denuncias-linea-145-AAAA.zip
+
+-	**Descripción del contenido:** denuncias sobre trata de personas recibidas en la Línea 145 en el año AAAA
+
+-   **Formato:** ZIP
+
+### Lucha contra la trata de personas denuncias línea 145 – referidos - AAAA
+
+-   **Nombre del archivo:** oficina-rescate-denuncias-referidos-AAAA.zip
+
+**Descripción del contenido:** referidos en las denuncias recibidas en la Línea 145 sobre trata de personas en el año AAAA
+
+-   **Formato:** ZIP
+
+
+> La estructura mencionada a continuación hace referencia a los archivos publicados en el portal datos.jus.gob.ar durante el período comprendido entre el año 2017 y 2019 organizados en archivos anuales.
+
+
 Recursos disponibles
 --------------------
 
 ### Lucha contra la trata de personas llamados línea 145 – AAAAMM
 
--   **Nombre del archivo:** lucha-contra-la-trata-de-personas-llamados-linea-145-AAAAMM.csv
+-   **Nombre del archivo:** lucha-contra-la-trata-de-personas-llamados-linea-145-AAAAMM.zip
 
 **Descripción del contenido:** detalle de los llamados atendidos por los profesionales del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata de la Línea 145, sobre casos de explotación laboral, explotación sexual, desaparición de personas, publicidad de oferta sexual, traslado de personas, posible captación, grooming y venta de niños,
 
-> Cada fila en este archivo representa un llamado, ya que en el llamado se identifica una única víctima y un único agresor/a. A partir del mes de febrero de 2019 el recuento de las denuncias es realizado por medio del SICAJ  (Sistema Informático de los Centros de Acceso a Justicia). 
+> Cada fila en este archivo representa un llamado, ya que en el llamado se identifica una única víctima y un único agresor/a. 
 
--   **Formato:** CSV delimitado por comas, codificado en UTF-8
-
--   **Rango temporal:** llamados recibidos desde enero de 2017 hasta la fecha consignada como "Datos actualizados al"
+-   **Formato:** ZIP
 
 ### Campos del recurso
 
@@ -311,13 +508,6 @@ Recursos disponibles
 
 -   **victimas_estimadas_provincia_hecho_id (int**): código INDEC de la provincia en la que se produjo el hecho denunciado (hasta 05/2019 nombre campo victimas_estimadas_provincia_hecho_indec_id)
 
-### Lucha contra la trata de personas denuncias línea 145 – AAAA
-
--   **Nombre del archivo**: lucha-contra-la-trata-de-personas-denuncias-linea-145-orientaciones-AAAA.zip
-
--   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
-
--   **Formato:** ZIP
 
 ### Notas
 
@@ -349,18 +539,6 @@ La trata de personas se estructura a través de dos elementos, como son las acci
 
 Por lo tanto, la Trata de Personas es un delito de resultado anticipado o recortado, donde el legislador anticipa el momento de la consumación, aunque el objeto del bien jurídico – la libertad - no esté todavía materialmente perjudicado, o lo esté solo en parte. Es esta finalidad de explotación es la que permite distinguir conductas de naturaleza similar que sin embargo constituyen actos preparatorios o tentativas de otros delitos.
 
-*ACCIONES:*
-
-**Ofrecer:** invitar, brindar, prometer.
-
-**Captar**: ganar la voluntad, atrapar, entusiasmar.
-
-**Trasladar:** llevar de un lugar a otro. La acción se configura sin que necesariamente, se haya llegado a destino.
-
-**Recibir:** tomar, admitir a la víctima al lugar de la explotación.
-
-**Acoger**: hospedar, alojar, esconder, brindar protección física al damnificado.
-
 *MODALIDADES DE EXPLOTACIÓN:*
 
 **Explotación laboral:**
@@ -385,7 +563,7 @@ Inc. e) Cuando se forzare a una persona al matrimonio o a cualquier tipo de uni�
 
 Inc. f) “Cuando se promoviere, facilitare o comercializare la extracción forzosa o ilegítima de órganos, fluidos o tejidos humanos. El consentimiento dado por la víctima de la trata y explotación de personas no constituirá en ningún caso causal de eximición de responsabilidad penal, civil o administrativa de los autores, partícipes, cooperadores o instigadores.
 
-De esta manera, el tipo penal del art. 145 bis queda cumplido con la captación, traslado, acogimiento, recepción u ofrecimiento de una persona con finalidad de explotación. En líneas generales, la antigua ley 23.643 contaba con estas acciones, pero exigía, para la tipificación del delito, que el autor se valiera de mecanismos específicos, llamados medios comisivos, para el logro de los verbos.
+De esta manera, el tipo penal del art. 145 bis queda cumplido con la captación, traslado, acogimiento, recepción u ofrecimiento de una persona con finalidad de explotación. En líneas generales, la antigua [Ley 26.364](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm)contaba con estas acciones, pero exigía, para la tipificación del delito, que el autor se valiera de mecanismos específicos, llamados medios comisivos, para el logro de los verbos.
 
 No obstante, estos mecanismos mediante los cuales el autor obtendría el consentimiento de la víctima conservan su plena vigencia, en tanto que - [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm) - constituyen agravantes del tipo básico, y son enunciados en el art 145ter del Código Penal.
 
@@ -401,80 +579,9 @@ A lo anterior, se ordena la creación y conservación *“de un archivo con los 
 
 Desde el año 2011 la Línea 145 se enmarca dentro del Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito, asignada por la Comisión Nacional de Comunicaciones, dependiente del Ministerio de Planificación Federal, Inversión Pública y Servicios, por [Resolución 74/2011](http://servicios.infoleg.gob.ar/infolegInternet/anexos/180000-184999/184545/norma.htm).
 
-**Anonimato:** según lo establece el artículo 17 de la [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm) las denuncias podrán ser efectuadas de manera anónima. Esta posibilidad es considerada como una de las modificaciones más relevantes introducidas con respecto de la ley 23.643, puesto que ella responde a una herramienta de acceso a la justicia y detección de casos de crimen organizado universalmente aceptada. Sirve, además, para conocer de un supuesto “autor en que fuere funcionario público o miembro de una fuerza de seguridad, policial o penitenciaria” (inciso 7 Art 145 ter CP)..
+**Anonimato:** según lo establece el artículo 17 de la [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm) las denuncias podrán ser efectuadas de manera anónima. Esta posibilidad es considerada como una de las modificaciones más relevantes introducidas con respecto de la [Ley 26.364](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm), puesto que ella responde a una herramienta de acceso a la justicia y detección de casos de crimen organizado universalmente aceptada. Sirve, además, para conocer de un supuesto “autor en que fuere funcionario público o miembro de una fuerza de seguridad, policial o penitenciaria” (inciso 7 Art 145 ter CP).
 
-**Formulario de Denuncia:** formato o instrumento escrito en el cual se vuelcan los hechos relatados por la persona denunciante.
+**Profesional:** las denuncias son recibidas por personal técnico, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se consigna en referencia a la persona que recibe el llamado y o correo electrónico de la ciudadanía. La elección de las especialidades profesionales está inspirada en las “Garantías mínimas para el ejercicio” de los derechos de las víctimas Titulo II Detrás de esta regulación está la idea de que el interrogatorio forense es un acto con alto contenido revictimizante y que sus efectos pueden ser morigerados cuando éste está dirigido por un especialista en psicología. Además, la persona que se comunica para realizar una denuncia no tiene por qué conocer los aspectos relevantes de un hecho de trata de personas (lugar de captación, forma de traslado, forma de pago del traslado, quién pagó, quién esperó en el lugar de explotación, características del lugar de explotación, entre otras innumerables cuestiones), por lo que es necesario que el personal conozca la temática acabadamente para que las preguntas y repreguntas conduzcan a la obtención de información y a la calidad de esa información.
 
-**Profesional:** personal técnico, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se consigna en referencia a la persona que recibe el llamado y o correo electrónico de la ciudadanía. La elección de las especialidades profesionales está inspirada en las “Garantías mínimas para el ejercicio” de los derechos de las víctimas Titulo II Detrás de esta regulación está la idea de que el interrogatorio forense es un acto con alto contenido revictimizante y que sus efectos pueden ser morigerados cuando éste está dirigido por un especialista en psicología.
-
-Además, la persona que se comunica para realizar una denuncia no tiene por qué conocer los aspectos relevantes de un hecho de trata de personas (lugar de captación, forma de traslado, forma de pago del traslado, quién pagó, quién esperó en el lugar de explotación, características del lugar de explotación, entre otras innumerables cuestiones), por lo que es necesario que el personal conozca la temática acabadamente para que las preguntas y repreguntas conduzcan a la obtención de información y a la calidad de esa información.
-
-**Palabra Clave:** Registro interno sobre alguna particularidad en lo relatado. Se consigna en virtud de establecer relaciones con denuncias anteriores o que pudieran recibirse a futuro.
-
-**Derivación a Seguimiento:** “Seguimiento” es un área dentro de la Línea 145 establecida a los fines de recibir aquellas denuncias que no refieran al delito de trata de personas; o bien aquellas que ameriten mayor exhaustividad. Es integrada por profesionales a las cuales se les derivan los formularios con la indicación en cuestión.
-
-**DENUNCIANTE:** persona que toma contacto con la Línea 145 para denunciar hechos de apariencia delictual.
-
-**VÍCTIMA**: refiere a las personas que fueran damnificadas por el delito en las denuncias recibidas; al sujeto pasivo del delito según su tipicidad. La ley actual no distingue entre la trata de mayores de 18 años y la trata de menores, debiendo entonces considerar que los sujetos pasivos se definen como cualquier individuo hombre, mujer, niño/a, sean víctimas de alguna de las conductas tipificadas en el art. 145 bis, y con cualquier condición agravante según son impuestas por el art. 145 ter del CP.
-
-En relación a este último punto, agravan la escala penal, *en referencia a la situación/ condición de la víctima, los siguientes supuestos: *
-
-1.  **Embarazada:** (inc 2, art. 145 ter) La víctima estuviere embarazada, o fuere mayor de setenta (70) años.
-
-2.  **Discapacidad:** (inc 3.) La víctima fuera una persona discapacitada, enferma o que no pueda valerse por sí misma.
-
-3.  **Cantidad de víctimas:** (inc 4) Las víctimas fueren tres (3) o más.
-
-4.  **Edad:** (inc 5). la víctima fuere menor de dieciocho (18) años la pena será de diez (10) a quince (15) años de prisión.
-
-5.  **Nacionalidad:** dato relevado en función del delito mismo (traslado). Puesto que el delito cuenta con una modalidad considerada Trata Interna: dentro de las fronteras de un mismo país. Como Trata Externa: las victimas pueden ser trasladadas desde otros países. La trata de personas posee un carácter de delito Trasnacional.
-
-**DENUNCIADO:** hace referencia a la persona que fuera identificada, por el ciudadano que llama, como el responsable de los hechos de apariencia delictual. De acuerdo a la tipicidad del delito, se trata de un sujeto activo común puesto que no requiere ninguna cualidad especial, puede ser hombre o mujer (El que).
-
-**A futuro se pueden poner estas cosas , que son por la calidad del denunciado, agravantes de de cinco (5) a diez (10) años de prisión, cuando:**
-
--   **El autor fuere ascendiente, descendiente, cónyuge, afín en línea recta, colateral o conviviente, tutor, curador, autoridad o ministro de cualquier culto reconocido o no, o encargado de la educación o de la guarda de la víctima. (inc 6. Art 145 ter)**
-
--   **El autor fuere funcionario público o miembro de una fuerza de seguridad, policial o penitenciaria. (inc 7. Art 145 ter)**
-
-**CONNIVENCIA:** cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas con carácter de funcionarios públicos y/ o pertenecientes a las fuerzas de seguridad. ***(inc 7. Art 145 ter) ***
-
-**TIPOS de DENUNCIAS:**
-
-1.  **Explotación Sexual:** modalidad de explotación enumerada en el inc c del art. 1 de la [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm) “Cuando se promoviere, facilitare o comercializare la prostitución ajena o cualquier otra forma de oferta de servicios sexuales ajenos”. La nueva ley modificó el [Código Penal](http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm) contemplando la promoción o facilitación de la prostitución en el art. 125 bis de modo general –tanto para mayores como para menores de 18 años. Constituye un agravante de la pena en términos del art 145 ter: Cuando se lograra consumar la explotación de la víctima objeto del delito de trata de personas la pena será de ocho (8) a doce (12) años de prisión.
-
-2.  **Explotación laboral:** (inciso a ) “cuando se redujere o mantuviere una persona en condición de esclavitud o servidumbre, bajo cualquier modalidad”; o (inciso b) “Cuando se obligare a una persona a realizar trabajos o servicios forzados”; art 140 CP. Constituye un agravante de la pena en términos del art 145 ter: Cuando se lograra consumar la explotación de la víctima objeto del delito de trata de personas la pena será de ocho (8) a doce (12) años de prisión.
-
-3.  **Desaparición de Personas:** la desaparición de una persona puede comprender la configuración de delitos complejos y múltiples. Se conjuga en muchos casos con el deber de prevenir, investigar y sancionar el delito de trata de personas, asumido mediante la firma del Protocolo de Palermo, adicional de la Convención contra la Delincuencia Trasnacional Organizada. En efecto, la trata de personas en tanto instancia de reclutamiento, traslado y recepción con fines de constituir una relación de explotación de seres humanos (en cualquiera de sus variables) es un proceso compatible con la desaparición, alejamiento, ocultamiento, etc. de una persona respecto de su entorno familiar y personal (núcleo social de base)
-
-4.  **Publicidad de Oferta Sexual:** el [Decreto 936/2011](http://servicios.infoleg.gob.ar/infolegInternet/anexos/180000-184999/184133/norma.htm) dice: “Se prohíben los avisos que promuevan la oferta sexual, con la explícita o implícita referencia a la solicitud de personas destinadas al comercio sexual por cualquier medio, con la finalidad de prevenir el delito de trata de personas con fines de explotación sexual y la paulatina eliminación de las formas de discriminación de las mujeres”. *El [Decreto 936/2011](http://servicios.infoleg.gob.ar/infolegInternet/anexos/180000-184999/184133/norma.htm) reglamenta la [Ley 26.364](http://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/norma.htm) de Prevención y Sanción de Trata de Personas (2008).* En este aspecto, los fundamentos del decreto puntualizan que la trata de personas es un fenómeno global, y que junto con el tráfico de drogas y armas es una de las actividades ilegales más lucrativas. En este punto, considera crucial estos avisos como elementos que estimulan por una parte la explotación sexual de personas (oferta) como la captación de víctimas de trata de personas (demanda sexual de personas).
-
-5.  **Oferta Laboral engañosa:** posible método de captación agravado.
-
-Art. 145 ter: “En los supuestos del artículo 145 bis la pena será de cinco (5) a diez (10) años de prisión, cuando:
-
-1.  Mediare engaño, fraude, violencia, amenaza o cualquier otro medio de intimidación o coerción, abuso de autoridad o de una situación de vulnerabilidad, o concesión o recepción de pagos o beneficios para obtener el consentimiento de una persona que tenga autoridad sobre la víctima.
-
-1.  **Traslado de Personas:** refiere a una de las acciones típicas enumeradas en el artículo 145bis del CP.
-
-2.  **Posible Captación:** ganar la voluntad, atrapar, entusiasmar
-
-3.  **Grooming:** fenómeno consiste en prácticas online llevadas a cabo, deliberadamente, por personas adultas con el fin de ganarse la confianza de otra que no ha alcanzado la mayoría de edad fingiendo empatía, cariño, etc., con fines de satisfacción sexual; esto es, como mínimo -y casi siempre- obtener imágenes del/a menor desnudo/a o realizando actos sexuales. Conducta delictual que constituye la antesala de otros delitos. *El [Código Penal Argentino](http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm) en su artículo 131, incorporado por la reforma de la [Ley 26.904](http://servicios.infoleg.gob.ar/infolegInternet/anexos/220000-224999/223586/norma.htm)*
-
-4.  **Venta de niños y otros delitos:** las operaciones de “compraventa” o de cesión de víctimas,
-
-1.  **Pornografía infantil:** una de las finalidades de explotación: inciso d), art. 1 [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm) es la promoción, facilitación o comercialización de la pornografía infantil o la realización de cualquier tipo de representación o espectáculo con dicho contenido. Constituye un agravante de la pena en términos del art 145 ter: Cuando se lograra consumar la explotación de la víctima objeto del delito de trata de personas la pena será de ocho (8) a doce (12) años de prisión.
-
-2.  **Ofrecimiento:** Incorporación de un nuevo verbo al tipo penal de trata de personas mediante la La [Ley 26.842](http://servicios.infoleg.gob.ar/infolegInternet/anexos/205000-209999/206554/norma.htm). Se trata de una nueva forma de comisión que puede tener importancia especialmente en casos de menores, cuya entrega por parte de los padres o tutores no constituía una forma de comisión autónoma
-
-3.  **Mula:** persona que traslada en su cuerpo estupefaciente. Actualmente se visualiza como posibles víctimas de Trata de personas, puesto sus condiciones de vulnerabilidad anterior, los mecanismos de captación, la necesariedad de un traslado, etc., son acciones típicas a este delito.
-
-4.  **Servidumbre doméstica:** subtipo de explotación laboral
-
-**DENUNCIA PREVIA:**
-
-**Relacionada:** conforman esta categoría las denuncias que por circunstancias relatadas se encuentran conectadas subjetiva y/u objetivamente con alguna denuncia ya canalizada. En este caso, la denuncia nueva es considerada como un hecho nuevo, no obstante esté relacionado.
-
-**Ampliatoria:** las denuncias que constituyen “ampliaciones” son aquellas que agregan o precisan información relativa a hechos que ya han sido informados con anterioridad, y con los cuales se ha realizó la denuncia pertinente. Para considerar que una denuncia se corresponde efectivamente con una “ampliación”, es condición que quien se comunica informe, con absoluta rigurosidad, el número de denuncia previa.
 
 Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
