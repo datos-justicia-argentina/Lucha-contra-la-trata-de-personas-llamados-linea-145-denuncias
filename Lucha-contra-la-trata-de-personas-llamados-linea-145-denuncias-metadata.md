@@ -61,15 +61,15 @@ Recursos disponibles
 
 -   **subtema (string):** refiere al subtema de la denuncia. Puede tomar los siguientes valores, entre otros:
 
-	–	Explotación laboral
+    -   Explotación laboral
 	
-	–	Explotación sexual
+    -   Explotación sexual
 	
-	–	Explotación sexual niñas, niños y adolescentes
+    -   Explotación sexual niñas, niños y adolescentes
 	
-	–	Oferta laboral engañosa
+    -   Oferta laboral engañosa
 	
-	–	Extracción forzosa de órganos, tejidos o fluidos
+    -   Extracción forzosa de órganos, tejidos o fluidos
 
 -   **provincia (string):** provincia donde aconteció el hecho denunciado
 
@@ -81,19 +81,19 @@ Recursos disponibles
 
 -   **via_ingreso (string):** medio a través del cual ingresa la denuncia. Puede tomar los valores:
 
-	-	Línea 145
+    -   Línea 145
 	
-	-	Correo institucional
+    -   Correo institucional
 	
-	-	Teléfono institucional
+    -   Teléfono institucional
 
 -   **derivacion_institucion (string):** organismo al cual es derivada la denuncia para que lleve a cabo la judicialización o para su conocimiento. Cuando los hechos ocurren en la Ciudad de Buenos Aires el Programa Nacional de Rescate lleva adelante la judicialización. Si se trata de una emergencia se deriva a su vez a las Fuerzas Federales de Seguridad. Puede tomar los valores:
 
-	-	Área legal del Programa Nacional de Rescate
+    -   Área legal del Programa Nacional de Rescate
 
-	-	Gendarmería Nacional Argentina
+    -   Gendarmería Nacional Argentina
 
-	-	Juzgado/Fiscalía
+    -   Juzgado/Fiscalía
 
     -   Oficina de Monitoreo
 
@@ -111,17 +111,17 @@ Recursos disponibles
 
 -   **derivacion_judicializa (string):** toma valor Sí cuando la derivación termina siendo judicializada. No se judicializa en tanto sea una orientación
 
-	- derivacion2_institucion (string): ídem derivacion_institucion
+-   **derivacion2_institucion (string): ídem derivacion_institucion
 	
-	- derivacion2_fecha (date): ídem derivacion_fecha
+-   **derivacion2_fecha (date): ídem derivacion_fecha
 	
-	- derivacion2_judicializa (string): ídem derivacion_judicializa
+-   **derivacion2_judicializa (string): ídem derivacion_judicializa
 	
-	- derivacion3_institucion (string): ídem derivacion_institucion
+-   **derivacion3_institucion (string): ídem derivacion_institucion
 	
-	- derivacion3_fecha (date): ídem derivacion_fecha
+-   **derivacion3_fecha (date): ídem derivacion_fecha
 	
-	- derivacion3_judicializa (string): ídem derivacion_judicializa
+-   **derivacion3_judicializa (string): ídem derivacion_judicializa
 
 -   **denunciante_nacionalidad (string):** nacionalidad de la persona que realiza la denuncia
 
@@ -131,21 +131,21 @@ Recursos disponibles
 
 -   **denunciante_tipo (string):** refiere al tipo de denunciante. Puede tomar los valores:
 	
-	-	Denunciante - ciudadano
+    -   Denunciante - ciudadano
 	
-	-	Denunciante - institución
+    -   Denunciante - institución
 
-	-	Denunciante - institución
+    -   Denunciante - institución
 	
-	-	Denunciante - víctima directa
+    -   Denunciante - víctima directa
 	
-	-	Denunciante - víctima indirecta
+    -   Denunciante - víctima indirecta
 	
 -   **denunciante_como_conocio_la_linea (string):** refiere al medio por el cual conoció la línea la persona que realiza la denuncia
 
 -   **denunciante_genero (string):** género de la persona que realiza la denuncia. Puede tomar los valores:
 
-	-	Hombre
+    -   Hombre
 
     -   Mujer
 
@@ -181,11 +181,11 @@ Recursos disponibles
   
 -   **referido_tipo (string):** referido tipo. Puede tomar los siguientes valores:
 
-	-	Acusado
+    -   Acusado
 	
-	-	Víctima directa
+    -   Víctima directa
 	
-	-	Víctima indirecta - familiar
+    -   Víctima indirecta - familiar
 
 -   **nacionalidad (string):** nacionalidad de la persona referida
 
