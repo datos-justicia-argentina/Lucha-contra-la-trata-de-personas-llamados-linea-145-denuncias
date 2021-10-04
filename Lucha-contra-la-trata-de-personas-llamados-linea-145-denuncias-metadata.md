@@ -75,8 +75,6 @@ Recursos disponibles
 
 -   **localidad (string):** localidad donde aconteció el hecho denunciado
 
--   **barrio (string):** barrio donde aconteció el hecho denunciado
-
 -   **dependencia_alta (string):** dependencia desde la cual se cargó en el sistema la denuncia
 
 -   **via_ingreso (string):** medio a través del cual ingresa la denuncia. Puede tomar los valores:
