@@ -266,7 +266,7 @@ Recursos disponibles
 
     -   Otros
 
--   **llamante_rango_etario (int):** rango etario de la persona que realiza el llamado. Puede tomar los valores:
+-   **llamante_rango_etario (int):** rango etario de la persona que realiza el llamado (campo vigente hasta 12/2018). Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -283,6 +283,8 @@ Recursos disponibles
     -   61 años en adelante
 
     -   No refiere
+    -   
+-   **llamante_edad (string):** edad de la persona que realiza el llamado (campo vigente desde 01/2019)
 
 -   **llamante_provincia (string):** provincia a la que pertenece la persona que realiza el llamado
 
@@ -300,7 +302,7 @@ Recursos disponibles
 
     -   Otros
 
--   **victima_identificada_rango_etario (int):** rango etario de la víctima identificada. Puede tomar los valores:
+-   **victima_identificada_rango_etario (int):** rango etario de la víctima identificada (campo vigente hasta 12/2018). Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -317,6 +319,8 @@ Recursos disponibles
     -   61 años en adelante
 
     -   No refiere
+
+-   **victima_identificada_edad (string):** edad de víctima identificada (campo vigente desde 01/2019)
 
 -   **victima_identificada_discapacidad (string):** toma valor Sí cuando la víctima identificada posee algún tipo de discapacidad
 
@@ -340,7 +344,7 @@ Recursos disponibles
 
     -   Otros
     
--   **denunciado_rango_etario (int):** rango etario de la persona denunciada. Puede tomar los valores:
+-   **denunciado_rango_etario (int):** rango etario de la persona denunciada (campo vigente hasta 12/2018). Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -358,6 +362,8 @@ Recursos disponibles
 
     -   No refiere
     
+-   **denunciado_edad (int):** edad de la persona denunciada (campo vigente desde 01/2019)
+
 -   **denunciado_provincia (string):** provincia en la que se encuentra la persona denunciada
 
 -   **connivencia_fuerza_seguridad (string):** toma valor Sí cuando en los hechos relatados se hiciere mención a la connivencia o autoría de personas pertenecientes a las fuerzas de seguridad
@@ -380,7 +386,7 @@ Recursos disponibles
 
     -   Otros
     
--   **victimas_estimadas_rango_etario (int):** rango etario de las víctimas estimadas en el hecho denunciado. Puede tomar los valores:
+-   **victimas_estimadas_rango_etario (int):** rango etario de las víctimas estimadas en el hecho denunciado (campo vigente hasta 12/2018). Puede tomar los valores:
 
     -   0 a 13 años
 
@@ -397,6 +403,8 @@ Recursos disponibles
     -   61 años en adelante
 
     -   No refiere
+
+-   **victimas_estimadas_edad (int):** edad de las víctimas estimadas en el hecho denunciado (campo vigente dede 01/2019)
 
 -   **victimas_estimadas_provincia_hecho (string):** provincia en la que se produjo el hecho denunciado
 
