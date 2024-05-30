@@ -16,11 +16,11 @@ Características
 
 -   **Tags o Etiquetas:** 145, trata, explotación, oferta sexual, desapariciones, grooming, captaciones, víctimas, género, vulnerabilidades, orientaciones, conflicto vecinal, adicciones, consumo, abuso infantil, denuncias
 
--   **Organización:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
+-   **Organización:** Ministerio de Justicia. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
 
--   **Autor:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
+-   **Autor:** Ministerio de Justicia. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
 
--   **Responsable:** Ministerio de Justicia y Derechos Humanos. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
+-   **Responsable:** Ministerio de Justicia. Subsecretaría de Política Criminal. Programa Nacional de Rescate y Acompañamiento a las Personas Damnificadas por el Delito de Trata
 
 -   **Grupo:** Acceso a Justicia, Género
 
@@ -590,4 +590,4 @@ Desde el año 2011 la Línea 145 se enmarca dentro del Programa Nacional de Resc
 **Profesional:** las denuncias son recibidas por personal técnico, con licenciaturas en Psicología o Trabajo Social, especializado en la escucha y la recepción. Se consigna en referencia a la persona que recibe el llamado y o correo electrónico de la ciudadanía. La elección de las especialidades profesionales está inspirada en las “Garantías mínimas para el ejercicio” de los derechos de las víctimas Titulo II Detrás de esta regulación está la idea de que el interrogatorio forense es un acto con alto contenido revictimizante y que sus efectos pueden ser morigerados cuando éste está dirigido por un especialista en psicología. Además, la persona que se comunica para realizar una denuncia no tiene por qué conocer los aspectos relevantes de un hecho de trata de personas (lugar de captación, forma de traslado, forma de pago del traslado, quién pagó, quién esperó en el lugar de explotación, características del lugar de explotación, entre otras innumerables cuestiones), por lo que es necesario que el personal conozca la temática acabadamente para que las preguntas y repreguntas conduzcan a la obtención de información y a la calidad de esa información.
 
 
-Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
+Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 187 del Ministerio de Justicia](http://datos.jus.gob.ar/resoluciones/RESOL-2018-187-APN-MJ.pdf), del 9 de Marzo de 2018.
